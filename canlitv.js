@@ -1,5 +1,5 @@
-﻿// version
-ver = '0.1';
+﻿// version MASTER BRANCH NIGHTLY
+ver = 'https://github.com/burakbengi/yildiz.tv/blob/master/canlitv.js';
 
 // delete google element
 _gaq = 0;
