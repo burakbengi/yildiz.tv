@@ -24,7 +24,7 @@ function timeOut()
 }
 
 var flashvars = {	"chan":"canlintv"
-					,"dvrServer":"rtmp://edge1-1.nar.tv/dvrh264/canlintv"
+					,"dvrServer":"rtmp://origin1.nar.tv/dvrh264/canlintv"
 					,"aspect":"","domain":"http://www.yildiz.tv/"
 					,"lnktime":"Hemen ana direkt link"
 					,"hideLogo":"true"
@@ -201,16 +201,16 @@ function changeChannel (Channel){
 	var rtmp_server_sub = "origin2";
 	switch (Channel){
 		case "canlintv":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "trt1":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "canliatv":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "kanalturk":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "eurod":
 			rtmp_server_sub = "origin3";
@@ -219,19 +219,19 @@ function changeChannel (Channel){
 			rtmp_server_sub = "origin3";
 			break;
 		case "tntturk":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "blumberg":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "trtavaz":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "trt3":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "kanal7":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		case "tv24":
 			rtmp_server_sub = "origin3";
@@ -252,7 +252,7 @@ function changeChannel (Channel){
 			rtmp_server_sub = "origin3";
 			break;
 		case "idmanaz":
-			rtmp_server_sub = "edge1-1";
+			rtmp_server_sub = "origin1";
 			break;
 		default:
 			rtmp_server_sub = "origin2";
